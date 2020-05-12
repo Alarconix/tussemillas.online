@@ -1,0 +1,216 @@
+body{
+  width: 1000px;
+margin: 0;
+font-family: "Titillium Web" ;
+}
+.header{
+    background-color: #1D252C;
+    height: 70px;
+    align-items: center;
+
+}
+.nav{
+    display:flex;
+    align-items: center;
+    background-color: #1D252C
+}
+.logo{
+    height: 50px;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 335px;
+    top: 6px;
+    margin: 0;
+}
+a{
+   text-decoration: none;
+   color: white;
+   margin-right: 30px;
+}
+.article-hero{
+  background-color:#1D252C ;
+  display: flex;
+  height: 380px;
+  align-items: center;
+}
+ h1{
+  font-family:Girassol;
+    font-size: 38px;
+    display: inline-block;
+    color: white;
+    margin: 20px;
+}
+strong{
+    color: #449BE2;
+}
+section img{
+  width: 500px;
+  height: 380px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.title-project{
+    padding: 20px;
+    color:#449BE2 ;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.container-project{
+  padding: 20px;
+  margin: 20px;
+    border-radius:20px;
+    /* border-style: solid;
+    border-color:#f2f2f2; */
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0;
+    box-shadow:#F2F2F2 -10px -10px 10px 1px,#F2F2F2 10px 10px 10px 1px;
+}
+
+
+}
+.container-project p {
+    width: 500px;
+
+}
+h3{
+  color: grey;
+  font-size: small;
+}
+.date strong{
+    color: black;
+    font-weight: bold;
+}
+.url{
+  color: black;
+  font-weight: bold;
+}
+article {
+    display: flex;
+}
+/* .text{
+  display: inline-block; */
+  .event-list{
+      display:flex;
+      flex-wrap: wrap;
+  }
+.event{
+  display: block;
+  margin: 10px;
+  width: 480px;
+    border-radius:10px;
+    overflow:hidden;
+    flex-shrink:0;
+    background-color:#F4FBFF;
+    box-shadow:#F2F2F2 -10px -10px 5px 5px,#F2F2F2 10px 2px 5px 5px;
+}
+.event img{
+  margin:0;
+    width:480px;
+    height:200px;
+    object-fit: cover;
+
+}
+.event-imageContainer{
+    margin:0;
+}
+.event-details{
+    margin:20px 40px;
+    background-color:white;
+    margin-top:-40px;
+    position:relative;
+    padding: 20px;
+    text-align:center;
+}
+.event-url{
+      border: 1px solid blue;
+      padding:5px 20px;
+      color: blue;
+      border-radius: 5px;
+}
+.event-title{
+    margin:20px;
+}
+.contac{
+    background:blue;
+    height:168px;
+    display: flex;
+    align-items: center;
+}
+.contac-title{
+    color:white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contac{
+  justify-content: space-between;
+}
+.social-link{
+  display:inline-block;
+    width:50px;
+    height:50px;
+    margin:0;
+    background-size: 50px 50px;
+    margin:10px
+}
+.social-link.twitter{
+  background-image: url("twitter.svg");
+}
+.social-link.facebook{
+  background-image: url("facebook.svg");
+}
+.social-link.github{
+  background-image: url("github.svg");
+}
+.social-link.instagram{
+  background-image: url("instagram.svg");
+}
+.form-email input{
+  border-color:gray;
+  padding: 5px 20px 5px 25px;
+  border-radius: 5px;
+  border-style: solid;
+  background-image: url("envelope.svg");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+.form-email button{
+    display: block;
+    margin-top: 5px;
+    background:transparent;
+    color:white;
+    padding: 10px 0px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top:10px;
+
+}
+.footer{
+  color:white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer div img{
+  vertical-align: middle;
+}
+.diseño{
+ position: relative;
+ top: 8px;
+ left: 220px;
+}
+.diseño a{
+  text-decoration: underline;
+}
+.diseño p{
+  position: relative;
+  right: 200px;
+}
