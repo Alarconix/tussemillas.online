@@ -29,6 +29,7 @@ li a{
   text-decoration: none;
   margin: 30px;
   color:white;
+  text-shadow: black 2px 2px 2px;
   font-size: 25px;
 }
 img{
