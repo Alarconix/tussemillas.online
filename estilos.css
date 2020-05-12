@@ -1,38 +1,150 @@
 *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.header{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .header{
+      width: 100%;
+      height: 0px;
+  }
+  
+  .nav{
     width: 100%;
-    height: 0px;
-}
+    height: 100px;
+    background-color: rgba(0, 224, 0, 0.3);
+    position: fixed;
+  }
+  ul{
+    margin-top: 30px;
+  }
+  li{
+    list-style-type: none;
+    display: inline;
+    margin: 30px;
+  
+  
+  }
+  li a{
+    text-decoration: none;
+    margin: 30px;
+    color:white;
+    text-shadow: black 2px 2px 2px;
+    font-size: 25px;}
 
-.nav{
-  width: 100%;
-  height: 100px;
-  background-color: rgba(0, 224, 0, 0.3);
-  position: fixed;
-}
-ul{
-  margin-top: 30px;
-}
-li{
-  list-style-type: none;
-  display: inline;
-  margin: 30px;
+  .title-2{
+      width: 500px;
+      margin-left: 415px;
+      margin-right: 500px;
+      background: pink;
+      color: green;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      border: 5px solid black;
+      border-radius: 100px;
 
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  .container{
+      display: flex;
+      justify-content: center;
+      margin: 30px;
+      margin-right:5px;
+      width:600px;
+      height:600px;
+      padding:0px;
+      margin-left: 400px;
+  }
+  .container-2{
+    margin-left: 400px;
+    margin-right:70px;
+  }
 
-}
-li a{
-  text-decoration: none;
-  margin: 30px;
-  color:white;
-  text-shadow: black 2px 2px 2px;
-  font-size: 25px;
-}
-img{
-  width: 100%;
-  height: 100%;
-}
+  .container-2da-parte{
+    display: flex;
+    justify-content:center;
+  }
+  .container-3{
+    margin-right:500px;
+  }
+  .container-4{
+    margin-right:45px;
+  }
+
+  .semilla-1{
+      color: green;
+      display:block;
+      margin-right:20px;
+      border: 5px solid black;
+      background: pink;
+      border-radius:100px;
+      padding-left: 5px;
+      padding-right: 5px;
+      height: 70px;
+      width: 170px;
+      margin-left: 70px;
+      font-size: 30px;
+  }
+
+  .semilla-2{
+    color: green;
+    display:block;
+    border: 5px solid black;
+    background: pink;
+    border-radius:100px;
+    padding-left: 5px;
+    padding-right: 5px;
+      margin-left:40px;
+      margin-right:40px;
+      height:70px;
+      font-size: 30px;
+      margin-top: 1px;
+  }
+
+  .semilla-3{
+    color: green;
+    display:block;
+    border: 5px solid black;
+    background: pink;
+    border-radius:100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left:40px;
+    margin-right:20px;
+    width: 170px;
+    height:70px;
+    font-size: 30px;
+  }
+
+  .semilla-4{
+    color: green;
+    display:block;
+    border: 5px solid black;
+    background: pink;
+    border-radius:100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 20px;
+    width:170px;
+    height:70px;
+    font-size:30px;
+  }
+
+  .girasol-img{
+      width:300px;
+      height:300px;
+      border-radius:100%;
+  }
+  .calabaza-img{
+    width:300px;
+      height:300px;
+      border-radius:100%;
+  }
+
+  p{
+    border: 5px solid black;
+  }
